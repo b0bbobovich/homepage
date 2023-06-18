@@ -67,6 +67,18 @@ body {
     .experiences {
         margin-right: 0;
     }
+
+    .skills__main-section, .skills__additional-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .skills__section {
+        padding-top: 10px;
+    }
+
 }
 
 
@@ -103,10 +115,18 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    cursor: pointer;
 }
 
 .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.contact-info__link {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .contact-info__item-icon-wrapper {
@@ -165,6 +185,24 @@ body {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+}
+
+
+
+.skills__main-section, .skills__additional-section {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+}
+
+.skills__section {
+    width: 200px;
+}
+
+.skills__subtitle {
+    color: var(--secondary-text-color);
+    margin-bottom: 10px;
 }
 
 .skills__text {
