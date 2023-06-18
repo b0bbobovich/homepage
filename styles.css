@@ -220,46 +220,42 @@ body {
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.experiences__project-link {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 10px;
     font-size: 15px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.experiences__company-header-name {
+.experiences__project-name {
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin: 15px 0 10px 0;
 }
 
-.experiences__company-project {
-    margin-left: 15px;
-    margin-bottom: 25px;
-}
-
-.experiences__company-project-role {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.experiences__company-project-name {
-    color: var(--primary-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.experiences__company-project-responsibilities {
+.experiences__project-description {
     color: var(--secondary-text-color);
-    padding-left: 20px;
+    margin: 5px 0;
 }
+
+.experiences__project-techstack-header {
+    color: var(--primary-text-color);
+}
+
+.experiences__project-techstack {
+    color: var(--secondary-text-color);
+    padding-left: 10px;
+}
+
 
 .additional-info {
     flex: 1 1 40%;
